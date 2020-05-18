@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SPDateFormattor_Example' do
+  pod 'SPDateFormattor', :path => '../'
+
+  target 'SPDateFormattor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
