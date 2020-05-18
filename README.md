@@ -17,8 +17,18 @@ SPDateFormattor is available through [CocoaPods](https://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SPDateFormattor'
+pod 'SPDateFormattor', :git => 'https://github.com/spandey211/SPDateFormattor.git'
 ```
+
+
+## Uses
+
+after instaling the Pod. Goto View Controller  and import SPDateFormattor at top of swift file.
+
+I have created two following funciond use like : 
+let dateComponents = Date.getDateComponent()
+let diffence = Date.differenceBetweenDates()
+
 
 ## Author
 
