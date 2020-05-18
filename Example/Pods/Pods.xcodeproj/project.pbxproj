@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		0979939F153EC7EFBE97C14040065EBB /* SPDateFormattor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 960803F55820A1B4BD17FE8252DDB23A /* SPDateFormattor-dummy.m */; };
 		553BACC56E3BDCD3CC4F01AE3C5864D4 /* SPDateFormattor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D15CE225527D7ED5AA4BEF2983BF3B38 /* SPDateFormattor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F8E2E4024728577009108D0 /* SPDateUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E2E3F24728577009108D0 /* SPDateUtilities.swift */; };
 		68337FAD1ED7198EC3E6B53DE05D0045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		759F6F898B0A36C36101BE6577768D47 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E992E3DB35F518349A5754A25BE4B98E /* ReplaceMe.swift */; };
 		AD53C2CA9E016C0EA7B324B4C09F3A36 /* Pods-SPDateFormattor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 209656944A402BB4D7155DABD3039336 /* Pods-SPDateFormattor_Example-dummy.m */; };
 		AFCADB44D5031B506C0113F39690257F /* Pods-SPDateFormattor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 358987F57C514C9C1AC8B7475FDB1F94 /* Pods-SPDateFormattor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4AC87972179E0A5A0BB5CFA1E64F8F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		0116149678E65E61A3A165D90247FB26 /* Pods-SPDateFormattor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPDateFormattor_Example-Info.plist"; sourceTree = "<group>"; };
-		0D575E0843005FE9515C97E65B0DE587 /* Pods_SPDateFormattor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPDateFormattor_Tests.framework; path = "Pods-SPDateFormattor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D575E0843005FE9515C97E65B0DE587 /* Pods_SPDateFormattor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPDateFormattor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA73445A8742CD126B5507DB733002C /* Pods-SPDateFormattor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPDateFormattor_Tests.modulemap"; sourceTree = "<group>"; };
-		12C58AA6F6419970C070B9E7A43A4EB2 /* SPDateFormattor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPDateFormattor.framework; path = SPDateFormattor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C58AA6F6419970C070B9E7A43A4EB2 /* SPDateFormattor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPDateFormattor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		209656944A402BB4D7155DABD3039336 /* Pods-SPDateFormattor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPDateFormattor_Example-dummy.m"; sourceTree = "<group>"; };
 		256CC6705C533CDA2FB012B3CF27CC11 /* Pods-SPDateFormattor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPDateFormattor_Tests-dummy.m"; sourceTree = "<group>"; };
 		27F077A845EE7E79995FD4C42CB15896 /* Pods-SPDateFormattor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPDateFormattor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,11 +52,12 @@
 		4388A118031E886900487385B4864B0C /* Pods-SPDateFormattor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPDateFormattor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46724676DD545CB09FCAF16660384EF5 /* Pods-SPDateFormattor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPDateFormattor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		52E22E93EC3DA80EB0962754498995F4 /* Pods-SPDateFormattor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPDateFormattor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5F8E2E3F24728577009108D0 /* SPDateUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SPDateUtilities.swift; path = SPDateFormattor/Classes/SPDateUtilities.swift; sourceTree = "<group>"; };
 		6096BE63021FF6308810EF58B3D9B607 /* SPDateFormattor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPDateFormattor-prefix.pch"; sourceTree = "<group>"; };
-		65276B6FB7E82EABE21356FAA34E764F /* SPDateFormattor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SPDateFormattor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		65276B6FB7E82EABE21356FAA34E764F /* SPDateFormattor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SPDateFormattor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		960803F55820A1B4BD17FE8252DDB23A /* SPDateFormattor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPDateFormattor-dummy.m"; sourceTree = "<group>"; };
-		9B35CCAD6853D2D71A43E1869F3785C8 /* Pods_SPDateFormattor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPDateFormattor_Example.framework; path = "Pods-SPDateFormattor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B35CCAD6853D2D71A43E1869F3785C8 /* Pods_SPDateFormattor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPDateFormattor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA7ACBC4EFCC763B7CDA142028C3CAB /* SPDateFormattor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPDateFormattor-Info.plist"; sourceTree = "<group>"; };
 		B97A72284196AF8A4D3E705F09502C09 /* Pods-SPDateFormattor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPDateFormattor_Example.modulemap"; sourceTree = "<group>"; };
 		BBE4774A3E6CC7AAEC76E8B98BA703D3 /* SPDateFormattor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPDateFormattor.release.xcconfig; sourceTree = "<group>"; };
@@ -64,12 +65,11 @@
 		DAE50184EA9205DD52CF9D24FBAF232F /* SPDateFormattor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPDateFormattor.debug.xcconfig; sourceTree = "<group>"; };
 		DE383C8087A24B53642EA013758B4CA1 /* Pods-SPDateFormattor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPDateFormattor_Example-umbrella.h"; sourceTree = "<group>"; };
 		DED4C0AB273A902B946C7AC3741635D6 /* Pods-SPDateFormattor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPDateFormattor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E2EB0789BB687D361747C430864BCF20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E2EB0789BB687D361747C430864BCF20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E43A44AF9DE5B21C66A0824CB4B407BE /* Pods-SPDateFormattor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPDateFormattor_Tests-Info.plist"; sourceTree = "<group>"; };
 		E69CD200A829CFB9D6A23ADC1FAF7BCD /* Pods-SPDateFormattor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPDateFormattor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E992E3DB35F518349A5754A25BE4B98E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SPDateFormattor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F563FFECD730E199FEBD8C42B0615B3B /* SPDateFormattor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPDateFormattor.modulemap; sourceTree = "<group>"; };
-		FFF973E03FC8F1FDD2C343C80C2D17CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FFF973E03FC8F1FDD2C343C80C2D17CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +111,9 @@
 		1A628DBDF73B00C4A2A89705A29101ED /* SPDateFormattor */ = {
 			isa = PBXGroup;
 			children = (
-				E992E3DB35F518349A5754A25BE4B98E /* ReplaceMe.swift */,
 				222B51BA3C448BDEB5EBAAE735C01E93 /* Pod */,
 				37905225552D9C7C007AE0B3B4FFDFE1 /* Support Files */,
+				5F8E2E3F24728577009108D0 /* SPDateUtilities.swift */,
 			);
 			name = SPDateFormattor;
 			path = ../..;
@@ -317,6 +317,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					BD798F77004D5E07C92A7C89B9CA21EC = {
+						LastSwiftMigration = 1140;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,8 +372,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				759F6F898B0A36C36101BE6577768D47 /* ReplaceMe.swift in Sources */,
 				0979939F153EC7EFBE97C14040065EBB /* SPDateFormattor-dummy.m in Sources */,
+				5F8E2E4024728577009108D0 /* SPDateUtilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBE4774A3E6CC7AAEC76E8B98BA703D3 /* SPDateFormattor.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -558,8 +564,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -666,6 +671,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAE50184EA9205DD52CF9D24FBAF232F /* SPDateFormattor.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -686,6 +692,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
