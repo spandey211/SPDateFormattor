@@ -1,0 +1,6 @@
+framework module SPDateFormattor {
+  umbrella header "SPDateFormattor-umbrella.h"
+
+  export *
+  module * { export * }
+}

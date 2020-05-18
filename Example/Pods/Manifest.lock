@@ -1,0 +1,16 @@
+PODS:
+  - SPDateFormattor (0.1.0)
+
+DEPENDENCIES:
+  - SPDateFormattor (from `../`)
+
+EXTERNAL SOURCES:
+  SPDateFormattor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SPDateFormattor: 04a40250c28ffe3267eee43b5a6da5d1174e3a46
+
+PODFILE CHECKSUM: 9fa14e2620d40ea50d2d568db8d750c21b58d57a
+
+COCOAPODS: 1.9.1
