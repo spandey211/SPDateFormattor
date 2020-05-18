@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.name             = 'SPDateFormattor'
   s.version          = '1.0.1'
   s.summary          = 'This is my first custom pod'
-
+  
+  s.description      = <<-DESC
 TODO: This is my first custom pod that works on Dateformatter you can use simple.
                        DESC
 
