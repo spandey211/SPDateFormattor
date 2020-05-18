@@ -21,7 +21,7 @@ TODO: This is my first custom pod that works on Dateformatter you can use simple
   s.author           = { 'spandey211' => 'spandey211@gmail.com' }
   s.source           = { :git => 'https://github.com/spandey211/SPDateFormattor.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '4.0'
   s.ios.deployment_target = '8.0'
   s.source_files = 'SPDateFormattor/Classes/**/*'
   # Manage accordingly
