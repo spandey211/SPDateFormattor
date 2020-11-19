@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
        
         print("Second Commit Test")
+        print("Third Commit Test")
 
         return true
     }
